@@ -139,12 +139,12 @@ Não tem uma conta?
 <!-- Profile content -->
 <div class="mt-14 px-4 py-6">
 <div class="relative">
-<div class="h-32 w-full rounded-lg overflow-hidden">
-<img src="https://readdy.ai/api/search-image?query=abstract%20music%20background%20with%20purple%20and%20blue%20gradient%2C%20minimal%20design%2C%20dark%20theme&width=800&height=200&seq=1&orientation=landscape" alt="Capa do perfil" class="w-full h-full object-cover">
+<div class="h-32 w-full rounded-lg overflow-hidden bg-gray-800 flex items-center justify-center">
+<i class="ri-image-line ri-3x text-gray-600"></i>
 </div>
 <div class="absolute -bottom-16 left-4">
-<div class="h-24 w-24 rounded-full border-4 border-gray-900 overflow-hidden bg-gray-800">
-<img src="https://readdy.ai/api/search-image?query=professional%20male%20musician%20portrait%2C%20dark%20moody%20lighting%2C%20high%20quality%2C%20realistic&width=200&height=200&seq=2&orientation=squarish" alt="Foto de perfil" class="w-full h-full object-cover">
+<div class="h-24 w-24 rounded-full border-4 border-gray-900 overflow-hidden bg-gray-800 flex items-center justify-center">
+<i class="ri-user-3-line ri-2x text-gray-600"></i>
 </div>
 </div>
 <div class="absolute right-2 bottom-2">
@@ -158,41 +158,39 @@ Não tem uma conta?
 <div class="mt-20">
 <div class="flex justify-between items-start">
 <div>
-<h2 class="text-xl font-bold text-white">Rafael Oliveira</h2>
-<p class="text-gray-400 text-sm">Pianista & Compositor</p>
+<h2 class="text-xl font-bold text-white">Novo Usuário</h2>
+<p class="text-gray-400 text-sm">Músico</p>
 </div>
 <div>
 <button class="px-4 py-2 bg-primary text-white rounded-button text-sm font-medium shadow-lg cursor-pointer">
-Seguir
+Editar Perfil
 </button>
 </div>
 </div>
 <div class="flex space-x-4 mt-4">
 <div class="text-center">
-<p class="text-white font-semibold">128</p>
+<p class="text-white font-semibold">0</p>
 <p class="text-gray-400 text-xs">Partituras</p>
 </div>
 <div class="text-center">
-<p class="text-white font-semibold">1.2k</p>
+<p class="text-white font-semibold">0</p>
 <p class="text-gray-400 text-xs">Seguidores</p>
 </div>
 <div class="text-center">
-<p class="text-white font-semibold">364</p>
+<p class="text-white font-semibold">0</p>
 <p class="text-gray-400 text-xs">Seguindo</p>
 </div>
 </div>
 <div class="mt-6">
 <h3 class="text-white font-medium mb-2">Sobre</h3>
-<p class="text-gray-300 text-sm">Pianista profissional com mais de 10 anos de experiência. Especializado em música clássica e jazz contemporâneo. Professor no Conservatório de São Paulo e compositor para produções audiovisuais.</p>
+<p class="text-gray-300 text-sm">Compartilhe um pouco sobre você...</p>
 </div>
 <div class="mt-6">
 <h3 class="text-white font-medium mb-3">Especialidades</h3>
 <div class="flex flex-wrap gap-2">
-<span class="px-3 py-1 bg-gray-800 text-primary text-xs rounded-full">Piano Clássico</span>
-<span class="px-3 py-1 bg-gray-800 text-primary text-xs rounded-full">Jazz</span>
-<span class="px-3 py-1 bg-gray-800 text-primary text-xs rounded-full">Composição</span>
-<span class="px-3 py-1 bg-gray-800 text-primary text-xs rounded-full">Arranjos</span>
-<span class="px-3 py-1 bg-gray-800 text-primary text-xs rounded-full">Teoria Musical</span>
+<button class="px-3 py-1 bg-gray-800 text-primary text-xs rounded-full border border-primary cursor-pointer">
+<i class="ri-add-line ri-sm"></i> Adicionar especialidade
+</button>
 </div>
 </div>
 </div>
@@ -210,39 +208,15 @@ Favoritos
 </button>
 </div>
 </div>
-<div class="mt-6 space-y-4">
-<div class="bg-gray-900 rounded-lg p-4 border border-gray-800">
-<div class="flex justify-between items-start">
-<div>
-<h4 class="text-white font-medium">Sonata ao Luar</h4>
-<p class="text-gray-400 text-xs mt-1">Beethoven • Piano • Clássico</p>
+<div class="mt-6 flex flex-col items-center justify-center py-8 text-center">
+<div class="w-16 h-16 bg-gray-800 rounded-full flex items-center justify-center mb-4">
+<i class="ri-music-2-line ri-2x text-gray-600"></i>
 </div>
-<div class="flex items-center space-x-2">
-<span class="px-2 py-1 bg-gray-800 text-xs text-green-400 rounded-full">Pública</span>
-<button class="w-8 h-8 flex items-center justify-center text-gray-300 hover:text-white cursor-pointer">
-<i class="ri-more-2-fill"></i>
+<h3 class="text-white font-medium mb-2">Nenhuma partitura ainda</h3>
+<p class="text-gray-400 text-sm mb-4">Comece a compartilhar suas partituras</p>
+<button class="px-4 py-2 bg-primary text-white rounded-button text-sm font-medium shadow-lg cursor-pointer flex items-center">
+<i class="ri-add-line mr-2"></i> Adicionar Partitura
 </button>
-</div>
-</div>
-<div class="mt-3 flex justify-between">
-<div class="flex space-x-3">
-<button class="flex items-center space-x-1 text-gray-400 text-xs cursor-pointer">
-<div class="w-4 h-4 flex items-center justify-center">
-<i class="ri-eye-line"></i>
-</div>
-<span>243 visualizações</span>
-</button>
-<button class="flex items-center space-x-1 text-gray-400 text-xs cursor-pointer">
-<div class="w-4 h-4 flex items-center justify-center">
-<i class="ri-heart-line"></i>
-</div>
-<span>42</span>
-</button>
-</div>
-<div>
-<p class="text-gray-400 text-xs">Atualizado em 10 mai 2025</p>
-</div>
-</div>
 </div>
 <div class="bg-gray-900 rounded-lg p-4 border border-gray-800">
 <div class="flex justify-between items-start">
@@ -389,14 +363,11 @@ Favoritos
 <button id="back-to-profile" class="w-8 h-8 flex items-center justify-center text-gray-300 hover:text-white cursor-pointer">
 <i class="ri-arrow-left-s-line ri-lg"></i>
 </button>
-<h2 class="text-white font-medium">Sonata ao Luar</h2>
+<h2 class="text-white font-medium">Nova Partitura</h2>
 </div>
 <div class="flex items-center space-x-4">
-<button class="w-8 h-8 flex items-center justify-center text-gray-300 hover:text-white cursor-pointer">
-<i class="ri-share-line ri-lg"></i>
-</button>
-<button class="w-8 h-8 flex items-center justify-center text-gray-300 hover:text-white cursor-pointer">
-<i class="ri-more-2-fill ri-lg"></i>
+<button class="w-8 h-8 flex items-center justify-center text-primary hover:text-white cursor-pointer">
+<i class="ri-save-line ri-lg"></i>
 </button>
 </div>
 </div>
@@ -404,21 +375,51 @@ Favoritos
 <!-- Sheet content -->
 <div class="mt-14 px-4 py-6">
 <div class="bg-gray-900 rounded-lg p-4 border border-gray-800">
-<div class="flex justify-between items-start">
+<div class="space-y-4">
 <div>
-<h3 class="text-white font-medium text-lg">Sonata ao Luar</h3>
-<p class="text-gray-400 text-sm mt-1">Ludwig van Beethoven</p>
+<label class="block text-sm font-medium text-gray-300 mb-1">Título da Partitura</label>
+<input type="text" class="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-button text-white focus:outline-none focus:border-primary" placeholder="Digite o título">
 </div>
-<span class="px-2 py-1 bg-gray-800 text-xs text-green-400 rounded-full">Pública</span>
+<div>
+<label class="block text-sm font-medium text-gray-300 mb-1">Compositor</label>
+<input type="text" class="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-button text-white focus:outline-none focus:border-primary" placeholder="Nome do compositor">
 </div>
-<div class="mt-4 flex space-x-3">
-<span class="px-3 py-1 bg-gray-800 text-xs text-gray-300 rounded-full">Piano</span>
-<span class="px-3 py-1 bg-gray-800 text-xs text-gray-300 rounded-full">Clássico</span>
-<span class="px-3 py-1 bg-gray-800 text-xs text-gray-300 rounded-full">Dificuldade: Avançado</span>
+<div>
+<label class="block text-sm font-medium text-gray-300 mb-1">Instrumento</label>
+<select class="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-button text-white focus:outline-none focus:border-primary">
+<option value="">Selecione o instrumento</option>
+<option value="piano">Piano</option>
+<option value="violino">Violino</option>
+<option value="violao">Violão</option>
+<option value="flauta">Flauta</option>
+<option value="outro">Outro</option>
+</select>
 </div>
-<div class="mt-6">
-<div class="bg-gray-800 rounded-lg overflow-hidden">
-<img src="https://readdy.ai/api/search-image?query=piano%20sheet%20music%2C%20Beethovens%20Moonlight%20Sonata%2C%20first%20page%2C%20high%20quality%2C%20clear%20notation%2C%20dark%20background&width=800&height=600&seq=3&orientation=portrait" alt="Partitura" class="w-full h-auto">
+<div>
+<label class="block text-sm font-medium text-gray-300 mb-1">Dificuldade</label>
+<select class="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-button text-white focus:outline-none focus:border-primary">
+<option value="">Selecione a dificuldade</option>
+<option value="iniciante">Iniciante</option>
+<option value="intermediario">Intermediário</option>
+<option value="avancado">Avançado</option>
+</select>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-300 mb-1">Arquivo da Partitura</label>
+<div class="mt-2 flex justify-center px-6 pt-5 pb-6 border-2 border-gray-700 border-dashed rounded-button">
+<div class="space-y-1 text-center">
+<i class="ri-upload-cloud-2-line ri-2x text-gray-400"></i>
+<div class="flex text-sm text-gray-400">
+<label class="relative cursor-pointer rounded-button font-medium text-primary hover:text-indigo-400">
+<span>Fazer upload</span>
+<input type="file" class="sr-only" accept=".pdf,.jpg,.png">
+</label>
+<p class="pl-1">ou arraste e solte</p>
+</div>
+<p class="text-xs text-gray-400">PDF, PNG, JPG até 10MB</p>
+</div>
+</div>
+</div>
 </div>
 <div class="mt-4 flex justify-between">
 <div class="flex space-x-2">
@@ -458,83 +459,29 @@ Favoritos
 </div>
 </div>
 <div class="mt-6">
-<h4 class="text-white font-medium mb-2">Notas do autor</h4>
-<p class="text-gray-300 text-sm">Esta é minha interpretação da Sonata ao Luar de Beethoven, com algumas anotações pessoais sobre dinâmica e expressão. O primeiro movimento deve ser tocado com muita expressividade, mantendo o pedal conforme indicado para criar o efeito atmosférico característico.</p>
+<h4 class="text-white font-medium mb-2">Notas e Observações</h4>
+<textarea class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-button text-white focus:outline-none focus:border-primary" rows="4" placeholder="Adicione notas sobre interpretação, técnica ou outras observações importantes..."></textarea>
 </div>
 <div class="mt-6">
-<h4 class="text-white font-medium mb-2">Histórico de versões</h4>
-<div class="space-y-3">
-<div class="flex justify-between items-center">
-<div class="flex items-center space-x-3">
-<div class="w-8 h-8 rounded-full bg-gray-800 flex items-center justify-center text-primary">
-<i class="ri-file-list-3-line"></i>
-</div>
-<div>
-<p class="text-white text-sm">Versão 2.1</p>
-<p class="text-gray-400 text-xs">10 mai 2025 • Atual</p>
-</div>
-</div>
-<button class="text-primary text-sm cursor-pointer">Ver</button>
-</div>
-<div class="flex justify-between items-center">
-<div class="flex items-center space-x-3">
-<div class="w-8 h-8 rounded-full bg-gray-800 flex items-center justify-center text-gray-400">
-<i class="ri-file-list-3-line"></i>
-</div>
-<div>
-<p class="text-white text-sm">Versão 2.0</p>
-<p class="text-gray-400 text-xs">28 abr 2025</p>
+<h4 class="text-white font-medium mb-2">Visibilidade</h4>
+<div class="flex items-center space-x-4">
+<label class="inline-flex items-center">
+<input type="radio" name="visibility" value="public" class="form-radio text-primary">
+<span class="ml-2 text-sm text-gray-300">Pública</span>
+</label>
+<label class="inline-flex items-center">
+<input type="radio" name="visibility" value="private" class="form-radio text-primary">
+<span class="ml-2 text-sm text-gray-300">Privada</span>
+</label>
 </div>
 </div>
-<button class="text-primary text-sm cursor-pointer">Ver</button>
-</div>
-<div class="flex justify-between items-center">
-<div class="flex items-center space-x-3">
-<div class="w-8 h-8 rounded-full bg-gray-800 flex items-center justify-center text-gray-400">
-<i class="ri-file-list-3-line"></i>
-</div>
-<div>
-<p class="text-white text-sm">Versão 1.0</p>
-<p class="text-gray-400 text-xs">15 mar 2025</p>
-</div>
-</div>
-<button class="text-primary text-sm cursor-pointer">Ver</button>
-</div>
-</div>
-</div>
-</div>
-<div class="mt-8">
-<h4 class="text-white font-medium mb-4">Comentários (8)</h4>
-<div class="space-y-4">
-<div class="flex space-x-3">
-<div class="w-10 h-10 rounded-full overflow-hidden flex-shrink-0">
-<img src="https://readdy.ai/api/search-image?query=professional%20female%20musician%20portrait%2C%20dark%20moody%20lighting%2C%20high%20quality%2C%20realistic&width=200&height=200&seq=4&orientation=squarish" alt="Avatar" class="w-full h-full object-cover">
-</div>
-<div class="flex-1">
-<div class="bg-gray-800 rounded-lg p-3">
-<div class="flex justify-between items-start">
-<div>
-<p class="text-white text-sm font-medium">Mariana Costa</p>
-<p class="text-gray-400 text-xs">Violinista</p>
-</div>
-<p class="text-gray-400 text-xs">2 dias atrás</p>
-</div>
-<p class="text-gray-300 text-sm mt-2">Adorei suas anotações sobre dinâmica no terceiro compasso! Vou experimentar na minha próxima prática.</p>
-</div>
-<div class="flex items-center space-x-4 mt-2 ml-2">
-<button class="flex items-center space-x-1 text-gray-400 text-xs cursor-pointer">
-<div class="w-4 h-4 flex items-center justify-center">
-<i class="ri-heart-line"></i>
-</div>
-<span>12</span>
+<div class="mt-8 flex justify-end space-x-3">
+<button class="px-4 py-2 text-gray-300 rounded-button text-sm font-medium border border-gray-700 cursor-pointer">
+Cancelar
 </button>
-<button class="flex items-center space-x-1 text-gray-400 text-xs cursor-pointer">
-<div class="w-4 h-4 flex items-center justify-center">
-<i class="ri-chat-1-line"></i>
-</div>
-<span>Responder</span>
+<button class="px-4 py-2 bg-primary text-white rounded-button text-sm font-medium shadow-lg cursor-pointer">
+Publicar Partitura
 </button>
-</div>
 </div>
 </div>
 <div class="flex space-x-3">
@@ -629,56 +576,84 @@ const profileScreen = document.getElementById('profile-screen');
 const sheetScreen = document.getElementById('sheet-screen');
 const createAccountBtn = document.getElementById('create-account-btn');
 const backToProfileBtn = document.getElementById('back-to-profile');
+const addSheetBtn = document.querySelector('button:contains("Adicionar Partitura")');
+
 loginForm.addEventListener('submit', function(e) {
 e.preventDefault();
 loginScreen.classList.add('hidden');
 profileScreen.classList.remove('hidden');
 profileScreen.classList.add('flex');
 });
+
 createAccountBtn.addEventListener('click', function(e) {
 e.preventDefault();
-// Aqui poderia abrir uma tela de cadastro
-// Por enquanto, vamos apenas fazer login direto
 loginScreen.classList.add('hidden');
 profileScreen.classList.remove('hidden');
 profileScreen.classList.add('flex');
 });
-// Abrir a tela de partitura ao clicar em qualquer card de partitura
-const scorecards = document.querySelectorAll('.bg-gray-900.rounded-lg.p-4.border');
-scorecards.forEach(card => {
-card.addEventListener('click', function() {
+
+if (addSheetBtn) {
+addSheetBtn.addEventListener('click', function() {
 profileScreen.classList.add('hidden');
 sheetScreen.classList.remove('hidden');
 sheetScreen.classList.add('flex');
 });
-});
-// Voltar para o perfil
+}
+
 backToProfileBtn.addEventListener('click', function() {
 sheetScreen.classList.add('hidden');
 profileScreen.classList.remove('hidden');
 profileScreen.classList.add('flex');
 });
+
+const fileInput = document.querySelector('input[type="file"]');
+const dropZone = document.querySelector('.border-dashed');
+
+if (fileInput && dropZone) {
+dropZone.addEventListener('dragover', (e) => {
+e.preventDefault();
+dropZone.classList.add('border-primary');
 });
-document.addEventListener('DOMContentLoaded', function() {
-// Adicionar funcionalidade aos botões de zoom
-const zoomInBtn = document.querySelector('.ri-zoom-in-line').parentNode.parentNode;
-const zoomOutBtn = document.querySelector('.ri-zoom-out-line').parentNode.parentNode;
-const sheetImage = document.querySelector('.bg-gray-800.rounded-lg.overflow-hidden img');
-let zoomLevel = 1;
-zoomInBtn.addEventListener('click', function() {
-if (zoomLevel < 2) {
-zoomLevel += 0.1;
-sheetImage.style.transform = `scale(${zoomLevel})`;
-sheetImage.style.transformOrigin = 'center top';
+
+dropZone.addEventListener('dragleave', () => {
+dropZone.classList.remove('border-primary');
+});
+
+dropZone.addEventListener('drop', (e) => {
+e.preventDefault();
+dropZone.classList.remove('border-primary');
+const files = e.dataTransfer.files;
+if (files.length) {
+fileInput.files = files;
+handleFileUpload(files[0]);
 }
 });
-zoomOutBtn.addEventListener('click', function() {
-if (zoomLevel > 0.5) {
-zoomLevel -= 0.1;
-sheetImage.style.transform = `scale(${zoomLevel})`;
-sheetImage.style.transformOrigin = 'center top';
+
+fileInput.addEventListener('change', (e) => {
+if (e.target.files.length) {
+handleFileUpload(e.target.files[0]);
 }
 });
+}
+
+function handleFileUpload(file) {
+const maxSize = 10 * 1024 * 1024; // 10MB
+if (file.size > maxSize) {
+alert('O arquivo é muito grande. O tamanho máximo é 10MB.');
+return;
+}
+
+const validTypes = ['application/pdf', 'image/jpeg', 'image/png'];
+if (!validTypes.includes(file.type)) {
+alert('Tipo de arquivo não suportado. Use PDF, JPG ou PNG.');
+return;
+}
+
+const fileName = document.createElement('p');
+fileName.textContent = `Arquivo selecionado: ${file.name}`;
+fileName.className = 'text-sm text-primary mt-2';
+dropZone.appendChild(fileName);
+}
 });
 </script>
 </body>
